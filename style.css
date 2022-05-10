@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+img {
+  margin-top: 2em;
+  width: 50vh;
+  padding: 2em;
+}
+.top{
+  /*background-color:red;*/
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+} 
+.main{
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  /*background-color: blue;*/
+}
+.publications{
+  width: 60vh;
+  background-color: #efefef;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.word{
+  width: 60vh;
+  background-color: transparent;
+  border: 2px solid #e8e8e8;
+  
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.descriptions{
+  padding: 0.7em;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 0;
+  color: #31343a;
+  text-align: center;
+}
+.title-pub{
+  background-color: #3b8ee8;
+  padding: 0.2em;
+  padding-left: 1em;
+}
+
+ul{
+  padding: 1;
+  color: #31343a;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+.textbox{
+  padding: 1em;
+}
+
+.title-med{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  img {
+    width: 80vw;
+    padding: 1em;
+    padding-bottom: 0em;
+  }
+  .publications{
+    width: 90%;
+  }
+  .word{
+   width: 90%;
+  }
+}
