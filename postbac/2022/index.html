@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>LSK - Promo 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+    <script src='https://www.google.com/recaptcha/api.js' async defer>
+
+    </script>
+</head>
+
+<body>
+
+
+    <div class="form-container">
+        <div class="explaination">
+            <div class="page-title">
+                LSKORIENTATION
+            </div>
+            Ce site a pour but de réunir les affectations de la promotion 2022 et cela pour deux raisons.<br>
+
+            <div class="text-centered">
+                <i>
+                    * Permettre de se retrouver, de savoir si on est proche d'un ami.<br>
+                    * Consolider le "réseau LSK" en permettant à la promo suivante de pouvoir contacter quelqu'un dans la formation qu'ils souhaitent intégrer dans le futur.
+                </i><br>
+            </div>
+
+
+            Bien évidemment les informations de contact sont laissées optionnelles. Si le site ne vous enregistre pas c'est que l'école est introuvable, essayez de mettre une adresse.
+        </div>
+
+
+
+    </div>
+
+    <div class="table-container">
+        <table id="tableId" class="table-container">
+            <thead>
+                <tr>
+                    <th align="center">N°</th>
+                    <th align="center">Nom</th>
+                    <th align="center">Prénom</th>
+                    <th align="center">Ville(Ecole)</th>
+                    <th align="center">Formation/Job</th>
+                    <th align="center">Nom complet de l'école/Entreprise</th>
+                    <th align="center">Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+
+                <tr><td>1</td><td>LABOUILLE</td><td>Angélique</td><td>Angers</td><td>Commerce</td><td>ESSCA</td><td>0622512186</td></tr>
+                <tr><td>2</td><td>de Marcillac</td><td>Maÿlis</td><td>Angers </td><td>Humanités science po</td><td>IRCOM </td><td></td></tr>
+                <tr><td>3</td><td>de cambourg</td><td>Amandine</td><td>Angers</td><td>Humanité/ sciences politiques </td><td>Ircom</td><td></td></tr>
+                <tr><td>4</td><td>Cortes </td><td>Solenne</td><td>Angers </td><td>Géopolitique littérature </td><td>Albert le Grand IRCOM</td><td>07 81 70 47 67</td></tr>
+                <tr><td>5</td><td>Demangeot </td><td>Solène </td><td>Angers </td><td>Licence</td><td>UCO</td><td>0604027745 </td></tr>
+                <tr><td>6</td><td>Arents</td><td>Guilhem</td><td>Ave Maria Floride (États-Unis)</td><td>Bachelor of Business administration </td><td>Ave Maria University </td><td>0766669901</td></tr>
+                <tr><td>7</td><td>de Crémiers </td><td>Louis-Félix </td><td>Bazas </td><td>Gestion forestière en alternance </td><td>BTSA gestion forestière </td><td>0652658692</td></tr>
+                <tr><td>8</td><td>Fournier </td><td>Bartolomé </td><td>Bègles</td><td>Prepa intégré </td><td>Junia </td><td>0783637209</td></tr>
+                <tr><td>9</td><td>Anglade</td><td>Theo</td><td>Bordeaux </td><td>Université de droit</td><td></td><td>0633887355</td></tr>
+                <tr><td>10</td><td>Voizard</td><td>Mathurin</td><td>Bordeaux </td><td>Patisserie </td><td>Ferrandi </td><td>06 10 94 32 40</td></tr>
+                <tr><td>11</td><td>Machnicki</td><td>Jeanne</td><td>Bordeaux </td><td>Medecine</td><td></td><td>0767472074</td></tr>
+                <tr><td>12</td><td>Ferraton</td><td>Jean</td><td>Bordeaux </td><td>École de relations internationales </td><td>HEIP</td><td>0625301349</td></tr>
+                <tr><td>13</td><td>Larbodie</td><td>Philippine</td><td>Bordeaux </td><td>Bts notariat </td><td>Infn </td><td></td></tr>
+                <tr><td>14</td><td>Mesnard</td><td>Victor</td><td>Bordeaux</td><td>GEA</td><td>IUT GEA Bordeaux bastide</td><td>0695700467</td></tr>
+                <tr><td>15</td><td>Mero</td><td>Véra</td><td>Bordeaux </td><td>LLCER-Anglais-Fr</td><td>Bordeaux Montaigne  </td><td>06 59 13 06 04</td></tr>
+                <tr><td>16</td><td>Mercier </td><td>Ilona</td><td>Bordeaux</td><td>design de mode et marketing de mode</td><td>SupMode</td><td>0787628198</td></tr>
+                <tr><td>17</td><td>Iriarte </td><td>Amaia</td><td>Bordeaux </td><td>GEA</td><td>IUT GEA Bordeaux Bastide </td><td>0640586264</td></tr>
+                <tr><td>18</td><td>Vaquié</td><td>Philippe</td><td>Bordeaux </td><td>Prepa commercial à Montaigne </td><td></td><td>0626079991</td></tr>
+                <tr><td>19</td><td>CHOIMET</td><td>GABRIEL</td><td>Bordeaux</td><td>PCSI</td><td>Gustave Eiffel Bordeaux</td><td>0615580457</td></tr>
+                <tr><td>20</td><td>Arnauld </td><td>Agathe </td><td>Bordeaux </td><td>LAS</td><td>Université Talence </td><td>0749043431</td></tr>
+                <tr><td>21</td><td>Masse</td><td>Lou-Anne</td><td>Bordeaux </td><td>prépa commerciale </td><td>Montaigne </td><td>07 86 02 95 77</td></tr>
+                <tr><td>22</td><td>Roch</td><td>Candice</td><td>Bordeaux</td><td>Prépa intégrée ingénieur</td><td>La prépa des INP</td><td>0768356747</td></tr>
+                <tr><td>23</td><td>Rouby</td><td>Laura</td><td>Bordeaux</td><td>Archi</td><td>ESAIL</td><td></td></tr>
+                <tr><td>24</td><td>Tracou</td><td>Pierre</td><td>Bordeaux</td><td>École de commerce</td><td>ISG</td><td>0647242099</td></tr>
+                <tr><td>25</td><td>Penanhoat </td><td>Jade </td><td>Bordeaux </td><td>	École de relations internationales</td><td>HEIP</td><td>0699908246</td></tr>
+                <tr><td>26</td><td>albucher</td><td>solene </td><td>Bordeaux </td><td>Commerce </td><td>ESSCA</td><td>0770135117</td></tr>
+                <tr><td>27</td><td>Ferreira</td><td>Elise </td><td>Bordeaux </td><td>Histoire et marché de l’art </td><td>Université bordeaux Montaigne</td><td>0695177899</td></tr>
+                <tr><td>28</td><td>Buguet</td><td>Ines</td><td>Bordeaux</td><td>Bts cg</td><td>Tivoli</td><td>0766229652</td></tr>
+                <tr><td>29</td><td>Naillou</td><td>Selyan</td><td>Bordeaux</td><td>Médecine </td><td>Université de Bordeaux - Bordeaux Métropole </td><td></td></tr>
+                <tr><td>30</td><td>Wang</td><td>Xiaoyi</td><td>Bordeaux</td><td>Illustration</td><td>Année sabbatique </td><td>0631239190</td></tr>
+                <tr><td>31</td><td>Casset</td><td>Corentin</td><td>Bordeaux</td><td>Bachelor Chef de projet Digital</td><td>Digital Campus </td><td>07 85 21 01 12</td></tr>
+                <tr><td>32</td><td>Lachamp</td><td>Raoul</td><td>Bordeaux </td><td>Bts bâtiment en alternance </td><td>Sainte famille Saintonge</td><td>0767983270</td></tr>
+                <tr><td>33</td><td>Maze</td><td>Victoire </td><td>Bordeaux</td><td>GEA</td><td>IUT GEA</td><td>0788881114</td></tr>
+                <tr><td>34</td><td>Meynard </td><td>Lana </td><td>Bordeaux </td><td>Prépa design </td><td>Ecv</td><td>lanameynard0102@gmail.com</td></tr>
+                <tr><td>35</td><td>Burlat </td><td>Etienne</td><td>Bordeaux </td><td>Classe préparatoire </td><td>Lycée Montaigne </td><td>0624572357</td></tr>
+                <tr><td>36</td><td>Larive</td><td>Thibault</td><td>Bordeaux</td><td>prépa PTSI</td><td>lycée Gustave Eiffel Bordeaux </td><td>0766383642</td></tr>
+                <tr><td>37</td><td>Tibourcio de la corre</td><td>Jeanne</td><td>Bordeaux </td><td>cpge pcsi</td><td>Montaigne </td><td>0613824624</td></tr>
+                <tr><td>38</td><td>Degallaix</td><td>Lilou</td><td>Bordeaux </td><td>ifsi </td><td>CHU bordeaux </td><td>0626916684</td></tr>
+                <tr><td>39</td><td>Mezille</td><td>Julie</td><td>Bordeaux </td><td>Prépa lettre</td><td>Camille Jullian </td><td>0641257221</td></tr>
+                <tr><td>40</td><td>Tastet</td><td>Charlotte</td><td>Bordeaux </td><td>CPGE PCSI</td><td>Montaigne </td><td>07 68 15 02 89</td></tr>
+                <tr><td>41</td><td>Sanchez</td><td>Lola</td><td>Bordeaux </td><td>Prépa ECG</td><td>Sainte Marie Grand Lenbrun</td><td>06 70 17 08 29</td></tr>
+                <tr><td>42</td><td>de Baritault</td><td>Geoffroy</td><td>Bordeaux</td><td>Prépa MPSI</td><td>Grand Lebrun</td><td>0651272694</td></tr>
+                <tr><td>43</td><td>Magnus</td><td>Titouan</td><td>Bordeaux</td><td>Staps </td><td>Accès sante</td><td></td></tr>
+                <tr><td>44</td><td>deleury</td><td>Léanne</td><td>Bordeaux</td><td>Prépa droit  éco </td><td>D1 gustave eiffel </td><td>0687609796</td></tr>
+                <tr><td>45</td><td>Notario</td><td>Gabrielle</td><td>Bordeaux</td><td>Licence </td><td>Université de droit</td><td>0769987895</td></tr>
+                <tr><td>46</td><td>Lanusse</td><td>Rémi</td><td>Bordeaux </td><td>tqt </td><td>tqt </td><td>07 89 43 12 40</td></tr>
+                <tr><td>47</td><td>Maze-Sencier</td><td>Victoire </td><td>Bordeaux </td><td>gestion compta</td><td>IUT GEA</td><td></td></tr>
+                <tr><td>48</td><td>Lecocq</td><td>Côme</td><td>Bordeaux</td><td>Prépa PTSI </td><td>Lycée gustave Eiffel </td><td>07 67 99 16 90</td></tr>
+                <tr><td>49</td><td>de BUCY</td><td>Cyprien</td><td>Bordeaux </td><td>IUT Mesures physiques </td><td></td><td>0783426803</td></tr>
+                <tr><td>50</td><td>Drion</td><td>Mayeul</td><td>Bordeaux </td><td>Medecine </td><td>Université de Bordeaux - Bordeaux Métropole</td><td>0670178770</td></tr>
+                <tr><td>51</td><td>Bergès</td><td>Victoire</td><td>Bordeaux Campus Montaigne Montesquieu </td><td>Licence de droit </td><td>Montaigne Montesquieu </td><td>0769898889</td></tr>
+                <tr><td>52</td><td>Laurioux</td><td>Anakin</td><td>Bordeaux Esme</td><td>Ingénieur</td><td>L’Esme studria</td><td>0634186179</td></tr>
+                <tr><td>53</td><td>de Guigné</td><td>Céleste </td><td>Floride, USA (AMU)</td><td>Licence maths</td><td>Ave Maria University</td><td></td></tr>
+                <tr><td>54</td><td>Lorcy</td><td>Pauline</td><td>La Brede</td><td></td><td></td><td>0766672056</td></tr>
+                <tr><td>55</td><td>Lallemand</td><td>Rémi</td><td>La Roche sur Yon</td><td>Double licence histoire/science po</td><td>ICES</td><td>0785862327</td></tr>
+                <tr><td>56</td><td>Charreyron </td><td>Calixte </td><td>La roche sur yon</td><td>Double licence droit/histoire</td><td>ICES</td><td>0622479423</td></tr>
+                <tr><td>57</td><td>DESCOUR </td><td>Eloi</td><td>La Roche-sur-Yon ICES</td><td>Double Licence histoire sciences politiques </td><td>ICES</td><td>0658690604</td></tr>
+                <tr><td>58</td><td>Sikorski</td><td>Valentine</td><td>Lille</td><td>Ingénieur</td><td>Junia HEI</td><td></td></tr>
+                <tr><td>59</td><td>Sikorski</td><td>Elena</td><td>Lille</td><td>Ingénieur</td><td>Junia HEI</td><td></td></tr>
+                <tr><td>60</td><td>Raigner</td><td>Nathan</td><td>Lille</td><td>licence science politique </td><td>ESPOL</td><td></td></tr>
+                <tr><td>61</td><td>Pauzie </td><td>Robin </td><td>Lille </td><td>Médecine </td><td>Faculté catholique de Lille </td><td>0782843653</td></tr>
+                <tr><td>62</td><td>Leizagoyen </td><td>Eugénie </td><td>Lille</td><td>École d’infirmière </td><td>Institut Catholique </td><td>0623728012</td></tr>
+                <tr><td>63</td><td>Patier</td><td>Blandine</td><td>Limoges</td><td>Médecine </td><td>Université de Limoges</td><td>0762341248</td></tr>
+                <tr><td>64</td><td>Sirven</td><td>Emie</td><td>Lyon</td><td>Philosophie</td><td>UCly</td><td>06 51 73 48 48</td></tr>
+                <tr><td>65</td><td>Manan</td><td>Lili</td><td>Marseille </td><td>Commerce</td><td>L’EMD</td><td>0689260039</td></tr>
+                <tr><td>66</td><td>Thierry</td><td>Jeanne</td><td>Marseille</td><td>Service civique auprès d’enfants handicapés</td><td>La maison des plus petits</td><td>07 68 48 50 49</td></tr>
+                <tr><td>67</td><td>Lacoste</td><td>Valentin</td><td>Montpellier </td><td>Prepa d2</td><td>Prepa d2 Jean Mermoz </td><td>06 02 66 49 40 </td></tr>
+                <tr><td>68</td><td>De Malet</td><td>Hortense</td><td>Montréal Canada</td><td>Bachelor of HR</td><td>Concordia University</td><td>0630383648</td></tr>
+                <tr><td>69</td><td>Deshoux</td><td>François-Xavier</td><td>Nantes</td><td>Design</td><td>École de design de Nantes Atlantique </td><td>0768803042</td></tr>
+                <tr><td>70</td><td>Greene</td><td>Cooper</td><td>Nashville</td><td>Terminale </td><td>Montgomery Bell Academy</td><td>+1 615 571 9651</td></tr>
+                <tr><td>71</td><td>Brocart</td><td>Marie</td><td>Nîmes </td><td>Ecole de bio </td><td>Estbb biochimie </td><td>0622091131</td></tr>
+                <tr><td>72</td><td>Touvet</td><td>Marc</td><td>Paris</td><td>Ingénieur du Numérique </td><td>Isep Paris</td><td>0769123977</td></tr>
+                <tr><td>73</td><td>Nompaix</td><td>Gaëtan</td><td>Paris</td><td>CPGE - MPSI</td><td>Collège Stanislas</td><td>0780540019</td></tr>
+                <tr><td>74</td><td>Gicquel </td><td>Sixtine-Marie</td><td>Paris</td><td>Restauration du Patrimoine </td><td>École de Condé</td><td>0651001613</td></tr>
+                <tr><td>75</td><td>Auney </td><td>Olympe </td><td>Paris </td><td>Licence histoire de l’art archéologie </td><td>École du Louvre </td><td></td></tr>
+                <tr><td>76</td><td>Fosse</td><td>Samuel </td><td>Paris</td><td>CPGE-MP2I</td><td>Lycée Saint Louis </td><td>+34 652 795 599 (WhatsApp) </td></tr>
+                <tr><td>77</td><td>Eon</td><td>Sophie</td><td>Paris</td><td>Bachelor game design & programming</td><td>Isart Digital</td><td>06.01.02.31.07</td></tr>
+                <tr><td>78</td><td>Thomas</td><td>Justine</td><td>Paris</td><td>CPGE-BCPST</td><td>Lycée Saint-Louis</td><td>0750362189</td></tr>
+                <tr><td>79</td><td>Dupla</td><td>Marguerite </td><td>Paris</td><td>Licence Sciences sociales</td><td>Institut Catholique de Paris</td><td>07.66.12.25.55 </td></tr>
+                <tr><td>80</td><td>Guillon</td><td>Agapé</td><td>Paris</td><td>CPGE lettre</td><td>MELH</td><td>0767720503</td></tr>
+                <tr><td>81</td><td>du Payrat </td><td>Cyprien </td><td>Paris</td><td>Lycée blomet </td><td></td><td></td></tr>
+                <tr><td>82</td><td>Boras Delattre</td><td>Guillaume </td><td>Paris</td><td>Ingénieur généraliste </td><td>EPF</td><td>0656859965</td></tr>
+                <tr><td>83</td><td>ROYER</td><td>CELIA</td><td>Paris</td><td>Parcours pluridisciplinaire bilingue anglais </td><td>La Sorbonne </td><td>0782077377</td></tr>
+                <tr><td>84</td><td>Oudeyer</td><td>Arthur</td><td>Paris</td><td>Prepa MP2I</td><td>Lycée Saint Louis</td><td>arthur.oudeyer@gmail.com</td></tr>
+                <tr><td>85</td><td>Lurton </td><td>Inès </td><td>Paris</td><td>DU orthophonie </td><td>Université Sorbonne Paris Nord </td><td>0611106069</td></tr>
+                <tr><td>86</td><td>Guy</td><td>Emma</td><td>Pau</td><td>DE ASS</td><td>Institut du travail social </td><td></td></tr>
+                <tr><td>87</td><td>Rooney--le Mesre de Pas</td><td>Caïro</td><td>Pau </td><td>Prépa PCSI </td><td>Louis Barthou</td><td>0785745608</td></tr>
+                <tr><td>88</td><td>Toulze</td><td>Kathleen </td><td>Perigueux </td><td>Iut génie biologique </td><td>Iut de perigueux </td><td></td></tr>
+                <tr><td>89</td><td>Blaye</td><td>Cloé</td><td>Périgueux</td><td>IUT </td><td>Technique de commercialisation</td><td>0652857607</td></tr>
+                <tr><td>90</td><td>Soleil </td><td>Thomas </td><td>Rouen </td><td>But mesures physique </td><td>Université Rouen </td><td>0768580767</td></tr>
+                <tr><td>91</td><td>Hurel</td><td>Constant</td><td>Rueil Malmaison (92)</td><td>CPGE PTSI</td><td>La Salle Passy Buzenval</td><td>07 73 17 27 69</td></tr>
+                <tr><td>92</td><td>Angélique</td><td>Labouille</td><td>Santiago</td><td>lycée </td><td>Colegio Alicante del Valle</td><td>0622512186</td></tr>
+                <tr><td>93</td><td>Dartigolles</td><td>Raphael </td><td>SEVRES, Paris. </td><td>Design</td><td>Strate Ecole de design </td><td>0610664657</td></tr>
+                <tr><td>94</td><td>Gilbert </td><td>Montaine </td><td>St Cloud </td><td>Bachelor métiers du livre et du patrimoine </td><td>IUT de Ville d’Avray</td><td>0769521286</td></tr>
+                <tr><td>95</td><td>Croteau</td><td>Lucile </td><td>Talence </td><td>Eje </td><td>Institut reginonal du travail social (irts)</td><td></td></tr>
+                <tr><td>96</td><td>Gardere</td><td>Raphaël</td><td>Toulouse</td><td>Gea</td><td>IUT Paul Sabatier</td><td>0663163204</td></tr>
+                <tr><td>97</td><td>Montazel</td><td>Henri</td><td>Toulouse </td><td>Inge agro</td><td>Purpan</td><td>0766893590</td></tr>
+                <tr><td>98</td><td>Pocard</td><td>Clara</td><td>Toulouse</td><td>Prépa</td><td>Lycée Saliège </td><td>0627304237</td></tr>
+                <tr><td>99</td><td>Musereau </td><td>Augustin </td><td>Toulouse </td><td>Ingénieur agronome </td><td>Purpan </td><td>0766391370</td></tr>
+                <tr><td>100</td><td>de Javel </td><td>Maxence </td><td>Toulouse </td><td>Ingénieur généraliste </td><td>ICAM</td><td></td></tr>
+                <tr><td>101</td><td>Herbaux</td><td>Mathis</td><td>Toulouse </td><td>Inge Généraliste </td><td>ICAM ( Parcours Ouvert )</td><td>0768593149</td></tr>
+                <tr><td>102</td><td>de FRANCQUEVILLE </td><td>PHILIPPINE</td><td>TOULOUSE </td><td>PRÉPA DESIGN (1AN)</td><td>ECOLE DE CONDÉ </td><td>0766282893</td></tr>
+                <tr><td>103</td><td>Chézaud</td><td>Sarah</td><td>Toulouse</td><td>Licence droit </td><td>ICT</td><td>0766433933</td></tr>
+                <tr><td>104</td><td>Fourcade</td><td>Louise </td><td>Toulouse </td><td>Ingénieur agronome </td><td>Purpan </td><td>0647924950</td></tr>
+                <tr><td>105</td><td>Lopez</td><td>Emma</td><td>Toulouse</td><td>CPGE ECG</td><td>Lycée Saliège</td><td>0782392583</td></tr>
+                <tr><td>106</td><td>Jacqué</td><td>Mathilde</td><td>Toulouse</td><td>IFEC</td><td>Institut Franco-Européen de Chiropraxie</td><td>07.81.68.98.72</td></tr>
+                <tr><td>107</td><td>de Ligondes</td><td>Blandine</td><td>Toulouse</td><td>BTS de notariat</td><td>Ecole national du notariat </td><td></td></tr>
+                <tr><td>108</td><td>Teitgen</td><td>Julien</td><td>Toulouse</td><td>Ingénieur agronome</td><td>Purpan</td><td>0768669650</td></tr>
+                <tr><td>109</td><td>Vergé</td><td>Clémence</td><td>Toulouse </td><td>Sciences Humaines et Sociales </td><td>Science Po Toulouse </td><td>0652252933</td></tr>
+                <tr><td>110</td><td>Palau</td><td>Constance</td><td>Toulouse</td><td>Prepa ECT</td><td>Lycée ozenne</td><td>0643370030</td></tr>
+                <tr><td>111</td><td>Boyer</td><td>Hugo</td><td>Toulouse </td><td>Apprentissage </td><td>ICam</td><td>0776022087</td></tr>
+                <tr><td>112</td><td>FANTON </td><td>Thérèse-Bénédicte </td><td>Toulouse </td><td>Infirmière </td><td>IFSI </td><td>0767838771</td></tr>
+                <tr><td>113</td><td>Simiane</td><td>Ambre</td><td>Toulouse</td><td>Science Politique</td><td>Science Po Toulouse</td><td>06 51 89 33 27</td></tr>
+                <tr><td>114</td><td>Geffard</td><td>Joseph</td><td>Vanves</td><td>Classe préparatoire </td><td>Lycée Jules Michelet</td><td>0627039648</td></tr>
+                <tr><td>115</td><td>Tordeux</td><td>Louis</td><td>Versailles</td><td>CPGE</td><td>Lycée privé Sainte Geneviève</td><td>0769388487</td></tr>
+                <tr><td>116</td><td>Charreyron</td><td>Marie-Aimée </td><td>Yssingeaux </td><td>Cap pâtisserie </td><td>Ecole ducasse </td><td>0610584335</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+    <div id="map"> </div>
+
+    <!-- Fichiers Javascript -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+    <script>
+        // On initialise la carte
+        var carte = L.map('map').setView([46.3223, 2.2549], 6);
+
+        // On charge les "tuiles"
+        L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+            attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+            minZoom: 1,
+            maxZoom: 20
+        }).addTo(carte);
+
+
+
+        function addMarker(lat, lon, text) {
+
+            const random = Math.floor(Math.random() * 18);
+            console.log(random)
+
+            let customIcon = {
+                iconUrl: "./pic" + random + ".png",
+                iconSize: [17, 17]
+            };
+            let myIcon = L.icon(customIcon);
+            let iconOptions = { icon: myIcon };
+
+            var latA = Math.random() / (10 ** 4);
+            var lonA = Math.random() / (10 ** 4);
+            let marker = L.marker([lat + latA, lon + lonA], iconOptions).addTo(carte);
+            marker.bindPopup(text);
+        }
+
+
+        addMarker(48.84500, 2.32800, 'Marc Touvet'); addMarker(48.84500, 2.32700, 'Gaëtan Nompaix'); addMarker(44.79600, -0.61000, 'Theo Anglade'); addMarker(48.84600, 2.30700, 'Sixtine-Marie Gicquel '); addMarker(47.47600, -0.60100, 'Angélique LABOUILLE'); addMarker(44.87700, -0.57400, 'Mathurin Voizard'); addMarker(43.30000, 5.37000, 'Lili Manan'); addMarker(44.84100, -0.58000, 'Jeanne Machnicki'); addMarker(43.56500, 1.45800, 'Raphaël Gardere'); addMarker(47.44300, -0.53700, 'Maÿlis de Marcillac'); addMarker(48.85100, 2.28800, 'Jean Ferraton'); addMarker(47.44300, -0.53300, 'Amandine de cambourg'); addMarker(43.60600, 1.40000, 'Henri Montazel'); addMarker(44.79700, -0.59800, 'Lucile  Croteau'); addMarker(45.82600, 1.25900, 'Blandine Patier'); addMarker(44.84300, -0.57600, 'Philippine Larbodie'); addMarker(44.84500, -0.55800, 'Victor Mesnard'); addMarker(45.49500, -73.57800, 'Hortense De Malet'); addMarker(45.74700, 4.82600, 'Emie Sirven'); addMarker(44.84600, -0.57700, 'Véra Mero'); addMarker(43.60300, 1.49600, 'Clara Pocard'); addMarker(43.60600, 1.40000, 'Augustin  Musereau '); addMarker(44.84700, -0.57600, 'Ilona Mercier '); addMarker(44.84500, -0.55800, 'Amaia Iriarte '); addMarker(44.84100, -0.58000, 'Philippe Vaquié'); addMarker(44.85400, -0.67000, 'GABRIEL CHOIMET'); addMarker(50.63400, 3.04500, 'Valentine Sikorski'); addMarker(44.80800, -0.59500, 'Agathe  Arnauld '); addMarker(43.59800, 1.41500, 'Maxence  de Javel '); addMarker(44.83500, -0.57200, 'Lou-Anne Masse'); addMarker(43.59900, 1.41500, 'Mathis Herbaux'); addMarker(44.80400, -0.61000, 'Candice Roch'); addMarker(44.86000, -0.56000, 'Laura Rouby'); addMarker(44.85400, -0.57500, 'Pierre Tracou'); addMarker(26.33700, -81.43900, 'Céleste  de Guigné'); addMarker(43.60000, 1.40700, 'PHILIPPINE de FRANCQUEVILLE '); addMarker(44.85900, -0.55700, 'Jade  Penanhoat '); addMarker(47.44300, -0.53300, 'Solenne Cortes '); addMarker(43.59500, 1.44200, 'Sarah Chézaud'); addMarker(48.82400, 2.22500, 'Raphael  Dartigolles'); addMarker(44.86600, -0.56000, 'solene  albucher'); addMarker(46.67200, -1.42000, 'Rémi Lallemand'); addMarker(44.86600, -0.57500, 'Anakin Laurioux'); addMarker(45.19600, 0.71900, 'Kathleen  Toulze'); addMarker(44.68100, -0.52800, 'Pauline Lorcy'); addMarker(44.79500, -0.61700, 'Elise  Ferreira'); addMarker(44.85600, -0.59200, 'Ines Buguet'); addMarker(43.60600, 1.40000, 'Louise  Fourcade'); addMarker(48.86100, 2.33100, 'Olympe  Auney '); addMarker(48.84900, 2.34300, 'Samuel  Fosse'); addMarker(44.81800, -0.65100, 'Selyan Naillou'); addMarker(48.86000, 2.37300, 'Sophie Eon'); addMarker(44.83900, -0.58100, 'Xiaoyi Wang'); addMarker(43.60300, 1.49600, 'Emma Lopez'); addMarker(44.86400, -0.55700, 'Corentin Casset'); addMarker(50.63400, 3.04500, 'Elena Sikorski'); addMarker(48.84900, 2.34200, 'Justine Thomas'); addMarker(43.83400, 4.37200, 'Marie Brocart'); addMarker(44.83200, -0.58000, 'Raoul Lachamp'); addMarker(36.12800, -86.83600, 'Cooper Greene'); addMarker(48.85800, 2.18100, 'Constant Hurel'); addMarker(47.46300, -0.54600, 'Solène  Demangeot '); addMarker(48.84900, 2.33000, 'Marguerite  Dupla'); addMarker(47.28400, -1.51800, 'François-Xavier Deshoux'); addMarker(43.61200, 1.39200, 'Mathilde Jacqué'); addMarker(44.84500, -0.55800, 'Victoire  Maze'); addMarker(43.60612, 1.43803, 'Blandine de Ligondes'); addMarker(44.81367, -0.55161, 'Bartolomé  Fournier '); addMarker(50.63099, 3.04661, 'Nathan Raigner'); addMarker(44.85144, -0.56941, 'Lana  Meynard '); addMarker(44.83371, -0.57205, 'Etienne Burlat '); addMarker(43.60624, 1.39976, 'Julien Teitgen'); addMarker(44.82837, -0.56538, 'Thibault Larive'); addMarker(-33.59652, -70.54550, 'Labouille Angélique'); addMarker(43.60554, 1.43165, 'Clémence Vergé'); addMarker(44.91684, -0.64258, 'Jeanne Tibourcio de la corre'); addMarker(46.67267, -1.41944, 'Eloi DESCOUR '); addMarker(44.82887, -0.60951, 'Lilou Degallaix'); addMarker(48.93428, 2.35814, 'Agapé Guillon'); addMarker(26.33654, -81.43901, 'Guilhem Arents'); addMarker(48.82529, 2.19910, 'Montaine  Gilbert '); addMarker(48.82488, 2.28698, 'Joseph Geffard'); addMarker(45.13781, 4.13271, 'Marie-Aimée  Charreyron'); addMarker(44.83899, -0.57209, 'Julie Mezille'); addMarker(45.19650, 0.71792, 'Cloé Blaye'); addMarker(48.85889, 2.32004, 'Cyprien  du Payrat '); addMarker(49.38492, 1.07208, 'Thomas  Soleil '); addMarker(43.30004, 5.37657, 'Jeanne Thierry'); addMarker(44.91684, -0.64258, 'Charlotte Tastet'); addMarker(48.78891, 2.32726, 'Guillaume  Boras Delattre'); addMarker(44.84976, -0.60668, 'Lola Sanchez'); addMarker(44.85083, -0.60707, 'Geoffroy de Baritault'); addMarker(44.79378, -0.61486, 'Titouan Magnus'); addMarker(50.63224, 3.04492, 'Robin  Pauzie '); addMarker(44.84941, -0.54686, 'Léanne deleury'); addMarker(44.79805, -0.61782, 'Gabrielle Notario'); addMarker(43.31559, -0.37134, 'Emma Guy'); addMarker(50.63009, 3.03978, 'Eugénie  Leizagoyen '); addMarker(43.61077, 3.89092, 'Valentin Lacoste'); addMarker(44.83322, -0.59699, 'Rémi Lanusse'); addMarker(43.60975, 1.44129, 'Constance Palau'); addMarker(44.84500, -0.55800, 'Victoire  Maze-Sencier'); addMarker(46.67248, -1.41955, 'Calixte  Charreyron '); addMarker(48.84942, 2.34409, 'CELIA ROYER'); addMarker(44.82837, -0.56538, 'Côme Lecocq'); addMarker(43.29583, -0.36384, 'Caïro Rooney--le Mesre de Pas'); addMarker(48.80253, 2.15554, 'Louis Tordeux'); addMarker(44.86646, -0.56759, 'Arthur Oudeyer'); addMarker(44.84123, -0.58004, 'Cyprien de BUCY'); addMarker(44.43211, -0.22458, 'Louis-Félix  de Crémiers '); addMarker(44.79708, -0.61753, 'Victoire Bergès'); addMarker(43.59756, 1.41499, 'Hugo Boyer'); addMarker(43.55838, 1.45099, 'Thérèse-Bénédicte  FANTON '); addMarker(44.81829, -0.65081, 'Mayeul Drion'); addMarker(43.60554, 1.43165, 'Ambre Simiane'); addMarker(48.93898, 2.35462, 'Inès  Lurton ');</script>
+
+    </script>
+
+    <div class="footer">
+        ---
+    </div>
+
+
+
+</body>
+</html>
